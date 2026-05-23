@@ -1,0 +1,13 @@
+# Ignorar dependencias de Composer del Servidor (Laravel)
+/server/vendor/
+
+# Ignorar archivo de variables de entorno del Servidor (Contiene credenciales de BD)
+/server/.env
+
+# Ignorar dependencias de Composer del Cliente
+/client/vendor/
+
+# Ignorar archivos del sistema y editores
+.idea/
+.vscode/
+*.log
